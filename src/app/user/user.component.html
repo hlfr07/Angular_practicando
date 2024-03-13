@@ -1,0 +1,15 @@
+<img (click)="funtionalert()" alt="photo" src="https://pbs.twimg.com/media/E5fCZ2fXwAE7mOk.png">
+@if (estadologin) {
+    <h1>ESTA LOGUEANDO, bienvenido {{ username }}</h1>
+    <p>ESTOY IMPORTANDO UN COMPONENTE</p>
+
+    <app-game (addFavoriteEvent)="getfavorite($event)" username="{{username}}"></app-game>
+    @if (gavgame != "") {
+        <h1>tu juego favorito es {{gavgame}}</h1>
+    }
+    <button style="background-color: brown; height: 50px; width: 100px;" (click)="estadologin=false">cerrar sesion</button>
+} @else {
+    <button style="background-color: blue; height: 50px; width: 100px;" (click)="estadologin=true">login</button>
+    <h2>Inicie sesion</h2>
+}
+
