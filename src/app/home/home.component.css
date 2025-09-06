@@ -1,0 +1,39 @@
+/* Hero Section */
+.hero {
+  /* This sets the background to a dark color */
+  background-color: #333; 
+  /* This ensures the hero is the full width of the screen */
+  width: 100%; 
+  /* Adds some vertical space */
+  padding: 100px 0; 
+  /* Centers the text */
+  text-align: center; 
+  /* Sets the text color to white for contrast */
+  color: #fff; 
+  /* Sets the font family for a clean look */
+  font-family: sans-serif;
+}
+
+/* Content inside the hero */
+.hero-content {
+  /* Limits the width for better readability on large screens */
+  max-width: 800px; 
+  /* Centers the content block horizontally */
+  margin: 0 auto; 
+}
+
+/* Heading inside the hero */
+.hero-content h1 {
+  /* Sets the font size to be large and prominent */
+  font-size: 3rem; 
+  /* Removes default margin from the heading */
+  margin-bottom: 0.5rem; 
+}
+
+/* Paragraph inside the hero */
+.hero-content p {
+  /* Sets a slightly smaller font size for the paragraph */
+  font-size: 1.5rem; 
+  /* Adjusts line height for readability */
+  line-height: 1.6;
+}
